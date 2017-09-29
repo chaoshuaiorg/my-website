@@ -1,3 +1,46 @@
-body{
-    background-color: red;
+/************
+*  页面样式
+************/
+.header{
+    height: 60px;
+    padding: 0 calc(50% - 571px);
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 2px 2px 5px #aaa;
+}
+.header-brand{
+    height: 30px;
+    font-size: 20px;
+    color: #494d55;
+    line-height: 30px;
+    text-indent: 70px;
+    background: url("../img/logo.png") no-repeat center left;
+    background-size: 60px 30px ;
+    position: absolute;
+    top: calc(50% - 15px);
+}
+.header-nav{
+    height: 30px;
+    font-size: 16px;
+    position: absolute;
+    top: calc(50% - 15px);
+    right: calc(50% - 571px);
+}
+.header-nav a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 14px;
+}
+.header-nav a.active,
+.header-nav a:hover
+{
+    color: #f2b335;
+}
+.header-nav a.active::after{
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #f2b335;
 }

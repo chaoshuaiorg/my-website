@@ -2,14 +2,14 @@
 * 网站风格样式
 ************/
 ::selection {
-    background-color: #f25252;
+    background-color: #f2b335;
 }
 a {
     text-decoration: none;
-    color: #292f35;
+    color: #494d55;
 }
 a:hover {
-    color: #f25252;
+    color: #f2b335;
 }
 li {
     list-style: none;
