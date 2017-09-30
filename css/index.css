@@ -1,12 +1,14 @@
 /************
 *  页面样式
 ************/
+
+/*****header****/
 .header{
     height: 60px;
     padding: 0 calc(50% - 571px);
     background-color: #ffffff;
     position: relative;
-    box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #aaa ;
 }
 .header-brand{
     height: 30px;
@@ -43,4 +45,79 @@
     height: 4px;
     width: 100%;
     background-color: #f2b335;
+}
+
+/******轮播图*****/
+.carousel{
+    height: 500px;
+    position: relative;
+}
+
+.carousel-banner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner-item{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size:  cover;
+    background-position: center;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+.banner-item.active{
+    opacity: 1;
+}
+.pic0{
+    background-image: url("../img/banner_ac2017-47729f.jpg");
+}
+.pic1{
+    background-image: url("../img/banner_0-c9e792.jpg");
+}
+.pic2{
+    background-image: url("../img/banner_1-ec70a4.jpg");
+}
+.pic3{
+    background-image: url("../img/banner_2-37b0e7.jpg");
+}
+.carousel-dots ol {
+    width: 870px;
+    height: 20px;
+    position: absolute;
+    bottom: 19px;
+    left: calc(50% - 435px);
+    z-index: 9;
+    text-align: center;
+}
+.carousel-dots ol li{
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    margin: 0 2px;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.3);
+    position: relative;
+    transition: all 1s;
+}
+/****扩大可点击区域***/
+.carousel-dots ol li:hover{
+
+    background-color: rgba(255,255,255,0.5);
+}
+.carousel-dots ol li::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    margin-left: -25px;
+    top: -10px;
+    bottom: -10px;
+
+}
+.carousel-dots ol li.active{
+    background-color: rgba(255,255,255,0.9);
 }
