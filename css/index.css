@@ -121,3 +121,68 @@
 .carousel-dots ol li.active{
     background-color: rgba(255,255,255,0.9);
 }
+
+/************
+*  OpenSource
+*************/
+.open-source{
+    height: 423px;
+    padding: 0 calc(50% - 571px);
+    margin-top: 20px;
+    background-color: #fff;
+}
+.open-source .container{
+    text-align: center;
+    color: #494d55;
+    font-size: 18px;
+}
+.open-source  h2 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: normal;
+    position: relative;
+}
+.open-source .container .lighter{
+    font-weight: lighter;
+}
+.open-source .container > span{
+    color: #919191;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.open-source .pro-container{
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+.open-source .pro-container .project-item{
+    width: 262px;
+    height: 190px;
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.open-source .pro-container .one{
+    background-color: #70c3ff;
+}
+.open-source .pro-container .two{
+    background-color: #fd6a7f;
+}
+.open-source .pro-container .three{
+    background-color: #7f8ea0;
+}
+.open-source .pro-container .four{
+    background-color: #89d04f;
+}
+.open-source .more-project button{
+    margin: 10px auto;
+    width: 104px;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    color: #616161;
+    border: none;
+    outline: none;
+}
