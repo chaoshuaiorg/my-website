@@ -140,7 +140,7 @@
     color: #494d55;
     font-size: 18px;
 }
-.open-source  h2 {
+.open-source .container > h2 {
     margin: 0;
     padding-top: 40px;
     font-weight: normal;
@@ -180,7 +180,105 @@
 .open-source .pro-container .four{
     background-color: #89d04f;
 }
-.open-source .more-project button{
+.open-source .more button{
+    margin: 10px auto;
+    width: 104px;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    color: #616161;
+    border: none;
+    outline: none;
+}
+/************
+*  MyFriends
+*************/
+.my-friends{
+    height: 500px;
+    min-width: 1142px;
+    padding: 0 calc(50% - 571px);
+    margin-top: 20px;
+    background-color: #fff;
+}
+.my-friends .container{
+    text-align: center;
+    color: #494d55;
+    font-size: 18px;
+}
+.my-friends .container > h2 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: normal;
+    position: relative;
+}
+.my-friends .container .lighter{
+    font-weight: lighter;
+}
+.my-friends .container > span{
+    color: #919191;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.my-friends .friend-container{
+    margin-top: 60px;
+    width: 100%;
+    font-size: 0px;
+    text-align: center;
+}
+
+.my-friends .friend-container .friend + .friend{
+    margin-left: 31px;
+}
+.my-friends .friend-container .friend{
+    width: 360px;
+    height: 275px;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e4ecf3;
+}
+.my-friends .friend-container .friend .img-box{
+    background-color: #f5f8fa;
+    padding-top: 20px;
+}
+.my-friends  .friend .img-box .img-wrap{
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 120px 120px;
+    background-size: 120px 120px;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+.my-friends .friend .img-box .one{
+    background-image:url("../img/psb-(2).png");
+}
+.my-friends .friend .img-box .two{
+    background-image:url("../img/tusheng.png");
+}
+.my-friends .friend .img-box .three{
+    background-image:url("../img/wuhao.png");
+}
+
+.my-friends .friend-container .friend h2{
+    color: #494d55;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+}
+.my-friends .friend-container .friend .desc{
+    color: #919191;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+}
+
+.my-friends .more button{
     margin: 10px auto;
     width: 104px;
     height: 40px;
