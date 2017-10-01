@@ -5,6 +5,7 @@
 /*****header****/
 .header{
     height: 60px;
+    min-width: 1142px;
     padding: 0 calc(50% - 571px);
     background-color: #ffffff;
     position: relative;
@@ -50,6 +51,7 @@
 /******轮播图*****/
 .carousel{
     height: 500px;
+    min-width: 1142px;
     position: relative;
 }
 
@@ -86,6 +88,7 @@
     background-image: url("../img/banner_2-37b0e7.jpg");
 }
 .carousel-dots ol {
+    padding: 0;
     width: 870px;
     height: 20px;
     position: absolute;
@@ -127,6 +130,7 @@
 *************/
 .open-source{
     height: 423px;
+    min-width: 1142px;
     padding: 0 calc(50% - 571px);
     margin-top: 20px;
     background-color: #fff;
