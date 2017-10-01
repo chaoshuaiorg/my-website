@@ -288,3 +288,45 @@
     border: none;
     outline: none;
 }
+/**********
+*  footer
+**********/
+.footer{
+    height: 260px;
+    min-width: 1142px;
+    padding: 0 calc(50% - 571px);
+    background-color: #26282c;
+    position: relative;
+}
+.footer .contact{
+    height:200px;
+}
+.footer .contact .icon-warpper{
+    height:100px;
+    text-align: center;
+}
+.footer .contact .icon-warpper .icon-item{
+    display: inline-block;
+    font-size: 38px;
+    width: 60px;
+    height:60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 40px 5px 0;
+}
+.footer .contact .footer-nav{
+    text-align: center;
+    font-size: 16px;
+    color: #f5f6f7;
+    margin-top: 10px;
+}
+.footer .contact .footer-nav span{
+    padding: 10px;
+}
+.footer .cpoyright{
+    height:60px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
