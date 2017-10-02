@@ -125,10 +125,6 @@
     background-color: rgba(255,255,255,0.9);
 }
 
-/*.i-subject .row a:hover img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2)
-}*/
 
 /************
 * COMMON
@@ -167,7 +163,7 @@
     line-height: 40px;
 }
  .cs-more button{
-    margin: 10px auto;
+    margin: 20px auto;
     width: 104px;
     height: 40px;
     display: block;
@@ -177,6 +173,9 @@
     border: none;
     outline: none;
 }
+ .cs-more button:hover{
+    box-shadow: 0 0 5px #555 inset;
+}
 
 /************
 *  OpenSource
@@ -184,7 +183,7 @@
 .open-source{
     height: 423px;
     min-width: 1142px;
-    padding: 20px calc(50% - 571px) 0;
+    padding: 20px calc(50% - 571px);
     background-color: #fff;
 }
 
@@ -241,6 +240,62 @@
 /***********
 *  Film
 ************/
+.film {
+    min-width: 1142px;
+    padding: 20px calc(50% - 571px);
+    background-color: #ffffff;
+}
+.film .film-container{
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+.film .film-container .project-item{
+    width: 262px;
+    height: 226px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+}
+.film .project-item .film-img{
+    width: 262px;
+    height: 180px;
+    overflow: hidden;
+    display: block;
+}
+.film .project-item .film-img img{
+    width: 262px;
+    height: 180px;
+}
+.film .project-item .film-img:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 3s;
+}
+.film .project-item h2{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 46px;
+    height: 46px;
+    color: #393939;
+}
+/*.film .film-container .one{
+    background-color: #70c3ff;
+}
+.film .film-container .two{
+    background-color: #fd6a7f;
+}
+.film .film-container .three{
+    background-color: #7f8ea0;
+}
+.film .film-container .four{
+    background-color: #89d04f;
+}*/
 
 /***********
 *  Blog
@@ -285,7 +340,6 @@
     width: 277px;
     height: 60px;
     margin: 17px 0;
-    /*background-color: #0f0;*/
     float: left;
     position: relative;
 }
