@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../font/icomoon.eot?nckegy');
-  src:  url('../font/icomoon.eot?nckegy#iefix') format('embedded-opentype'),
-    url('../font/icomoon.ttf?nckegy') format('truetype'),
-    url('../font/icomoon.woff?nckegy') format('woff'),
-    url('../font/icomoon.svg?nckegy#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?13akcq');
+  src:  url('../fonts/icomoon.eot?13akcq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?13akcq') format('truetype'),
+    url('../fonts/icomoon.woff?13akcq') format('woff'),
+    url('../fonts/icomoon.svg?13akcq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,50 +24,71 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-brand:before {
-  content: "\e900";
-  color: #00d8ff;
+.icon-android:before {
+  content: "\e90a";
+  color: #a4c639;
+}
+.icon-baidu:before {
+  content: "\e90c";
+  color: #2319dc;
+}
+.icon-css:before {
+  content: "\e90d";
+  color: #1572b6;
+}
+.icon-facebook:before {
+  content: "\e90f";
+  color: #3b5998;
+}
+.icon-github:before {
+  content: "\e910";
+}
+.icon-html:before {
+  content: "\e911";
+  color: #e34f26;
+}
+.icon-js:before {
+  content: "\e912";
+  color: #f7df1e;
+}
+.icon-cs:before {
+  content: "\e913";
+  color: #d51007;
+}
+.icon-Raspberry:before {
+  content: "\e915";
+  color: #c7053d;
+}
+.icon-weibo:before {
+  content: "\e918";
+  color: #e6162d;
+}
+.icon-qq:before {
+  content: "\e91a";
+  color: #12b7f5;
 }
 .icon-react:before {
   content: "\e900";
   color: #00d8ff;
 }
-.icon-brand2:before {
-  content: "\e901";
-  color: #f7df1e;
-}
-.icon-javascript:before {
-  content: "\e901";
-  color: #f7df1e;
-}
 .icon-vue:before {
   content: "\e902";
   color: #4fc08d;
-}
-.icon-html5:before {
-  content: "\e903";
-  color: #e34f26;
-}
-.icon-css3:before {
-  content: "\e904";
-  color: #1572b6;
-}
-.icon-github:before {
-  content: "\e905";
 }
 .icon-weixin:before {
   content: "\e906";
   color: #7bb32e;
 }
-.icon-weibo:before {
-  content: "\e907";
-  color: #e6162d;
-}
-.icon-sinaweibo:before {
-  content: "\e907";
-  color: #e6162d;
-}
 .icon-email:before {
   content: "\e908";
   color: #d14836;
+}
+.icon-earth:before {
+  content: "\e91f";
+}
+.icon-globe:before {
+  content: "\e91f";
+}
+.icon-internet-explorer:before {
+  content: "\e920";
 }

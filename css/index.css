@@ -76,16 +76,16 @@
     opacity: 1;
 }
 .pic0{
-    background-image: url("../img/banner_ac2017-47729f.jpg");
+    background-image: url("../img/banner_main.jpg");
 }
 .pic1{
-    background-image: url("../img/banner_0-c9e792.jpg");
+    background-image: url("../img/banner_0.jpg");
 }
 .pic2{
-    background-image: url("../img/banner_1-ec70a4.jpg");
+    background-image: url("../img/banner_1.jpg");
 }
 .pic3{
-    background-image: url("../img/banner_2-37b0e7.jpg");
+    background-image: url("../img/banner_2.jpg");
 }
 .carousel-dots ol {
     padding: 0;
@@ -125,8 +125,17 @@
     background-color: rgba(255,255,255,0.9);
 }
 
-/*选中漂浮效果*/
-.project-item:hover {
+/*.i-subject .row a:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}*/
+
+/************
+* COMMON
+*************/
+
+/*hover漂浮效果*/
+.cs-item:hover {
     transform: translateY(-6px);
     -webkit-transform: translateY(-6px);
     -moz-transform: translateY(-6px);
@@ -138,10 +147,37 @@
     -webkit-transition:0.5s ease;
     transition:0.5s ease;
 }
-/*.i-subject .row a:hover img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2)
-}*/
+.cs-container{
+    text-align: center;
+    color: #494d55;
+    font-size: 18px;
+}
+.cs-container > h2 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: normal;
+    position: relative;
+}
+.cs-container .lighter{
+    font-weight: lighter;
+}
+.cs-container > span{
+    color: #919191;
+    font-size: 14px;
+    line-height: 40px;
+}
+ .cs-more button{
+    margin: 10px auto;
+    width: 104px;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #616161;
+    border: none;
+    outline: none;
+}
+
 /************
 *  OpenSource
 *************/
@@ -150,25 +186,6 @@
     min-width: 1142px;
     padding: 20px calc(50% - 571px) 0;
     background-color: #fff;
-}
-.open-source .container{
-    text-align: center;
-    color: #494d55;
-    font-size: 18px;
-}
-.open-source .container > h2 {
-    margin: 0;
-    padding-top: 40px;
-    font-weight: normal;
-    position: relative;
-}
-.open-source .container .lighter{
-    font-weight: lighter;
-}
-.open-source .container > span{
-    color: #919191;
-    font-size: 14px;
-    line-height: 40px;
 }
 
 .open-source .pro-container{
@@ -220,57 +237,130 @@
 .open-source .pro-container .four{
     background-color: #89d04f;
 }
-.open-source .more button{
-    margin: 10px auto;
-    width: 104px;
+
+/***********
+*  Film
+************/
+
+/***********
+*  Blog
+************/
+.blog {
+    /*height: 600px;*/
+    min-width: 1142px;
+    padding: 20px calc(50% - 571px);
+    background-color: #ffffff;
+}
+.blog .blog-container{
+    position: relative;
+    width: 100%;
+    height: 325px;
+    margin-top: 60px;
+}
+.blog .blog-container .bolg-content,
+.blog .blog-container .blog-category{
+    width: 555px;
+    height: 325px;
+    border: 1px solid #e4ecf3;
+    border-radius: 4px;
+}
+.blog .blog-container .blog-category{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 15px;
+}
+.blog .blog-container .blog-category h4{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    height: 47px;
+    line-height: 47px;
+    text-indent: 15px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.blog .blog-container .blog-category dl{
+    margin: 0;
+    padding: 0;
+    width: 277px;
+    height: 60px;
+    margin: 17px 0;
+    /*background-color: #0f0;*/
+    float: left;
+    position: relative;
+}
+.blog .blog-container .blog-category dt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: grayscale(100%);
     height: 40px;
-    display: block;
-    font-size: 14px;
+    width: 40px;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.blog .blog-container .blog-category dt:hover{
+    filter: grayscale(0);
+    transition: .5s;
+}
+.blog .blog-container .blog-category dd{
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+.blog .blog-container .blog-category dd h5{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+}
+.blog .blog-container .blog-category dd span{
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.blog .blog-container .bolg-content{
+    text-align: left;
+    text-indent: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-right: 30px;
     color: #616161;
-    border: none;
-    outline: none;
+    font-size: 15px;
+    text-align: left;
+    text-indent: 15px;
+}
+.blog .blog-container .bolg-content h4{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    height: 47px;
+    line-height: 47px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.blog .blog-container .bolg-content .item{
+    height: 55px;
+    line-height: 55px;
+    padding-right: 50px;
+    font-weight: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 /************
 *  MyFriends
 *************/
-.friend:hover {
-    transform: translateY(-6px);
-    -webkit-transform: translateY(-6px);
-    -moz-transform: translateY(-6px);
-    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .5);
-    -webkit-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .5);
-    -moz-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .5)
-    -moz-transition:0.5s ease;
-    -o-transition:0.5s ease;
-    -webkit-transition:0.5s ease;
-    transition:0.5s ease;
-}
-.my-friends{
-    height: 500px;
+
+
+.my-friends {
+    height: 520px;
     min-width: 1142px;
     padding: 20px calc(50% - 571px) 0;
     background-color: #fff;
 }
-.my-friends .container{
-    text-align: center;
-    color: #494d55;
-    font-size: 18px;
-}
-.my-friends .container > h2 {
-    margin: 0;
-    padding-top: 40px;
-    font-weight: normal;
-    position: relative;
-}
-.my-friends .container .lighter{
-    font-weight: lighter;
-}
-.my-friends .container > span{
-    color: #919191;
-    font-size: 14px;
-    line-height: 40px;
-}
-
 .my-friends .friend-container{
     margin-top: 60px;
     width: 100%;
@@ -329,16 +419,6 @@
     line-height: 60px;
 }
 
-.my-friends .more button{
-    margin: 10px auto;
-    width: 104px;
-    height: 40px;
-    display: block;
-    font-size: 14px;
-    color: #616161;
-    border: none;
-    outline: none;
-}
 /**********
 *  footer
 **********/
