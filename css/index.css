@@ -4,12 +4,16 @@
 
 /*****header****/
 .header{
-    height: 60px;
+    width: 100%;
     min-width: 1142px;
-    padding: 0 calc(50% - 571px);
-    background-color: #ffffff;
-    position: relative;
     box-shadow: 2px 2px 5px #aaa ;
+    background-color: #fff;
+}
+.header-wrap{
+    max-width: 1142px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
 }
 .header-brand{
     height: 30px;
@@ -21,13 +25,14 @@
     background-size: 60px 30px ;
     position: absolute;
     top: calc(50% - 15px);
+    left: 0;
 }
 .header-nav{
     height: 30px;
     font-size: 16px;
     position: absolute;
     top: calc(50% - 15px);
-    right: calc(50% - 571px);
+    right: 0;
 }
 .header-nav a{
     display: inline-block;
@@ -181,12 +186,16 @@
 *  OpenSource
 *************/
 .open-source{
-    height: 423px;
+    width: 100%;
     min-width: 1142px;
-    padding: 20px calc(50% - 571px);
+    padding-bottom: 20px;
     background-color: #fff;
 }
-
+.open-source .open-source-wrap{
+    height: 423px;
+    max-width: 1142px;
+    margin: 0 auto;
+}
 .open-source .pro-container{
     margin-top: 60px;
     width: 100%;
@@ -241,9 +250,14 @@
 *  Film
 ************/
 .film {
+    width: 100%;
     min-width: 1142px;
-    padding: 20px calc(50% - 571px);
+    padding-bottom: 20px;
     background-color: #ffffff;
+}
+.film .film-wrap{
+    max-width: 1142px;
+    margin: 0 auto;
 }
 .film .film-container{
     margin-top: 60px;
@@ -257,6 +271,7 @@
     display: inline-block;
     margin: 0 10px;
     box-sizing: border-box;
+    border: 1px solid #e4ecf3;
     border-radius: 5px;
     position: relative;
 }
@@ -284,27 +299,19 @@
     height: 46px;
     color: #393939;
 }
-/*.film .film-container .one{
-    background-color: #70c3ff;
-}
-.film .film-container .two{
-    background-color: #fd6a7f;
-}
-.film .film-container .three{
-    background-color: #7f8ea0;
-}
-.film .film-container .four{
-    background-color: #89d04f;
-}*/
 
 /***********
 *  Blog
 ************/
 .blog {
     /*height: 600px;*/
+    width: 100%;
     min-width: 1142px;
-    padding: 20px calc(50% - 571px);
     background-color: #ffffff;
+}
+.blog .blog-wrap{
+    max-width: 1142px;
+    margin: 0 auto;
 }
 .blog .blog-container{
     position: relative;
@@ -410,10 +417,15 @@
 
 
 .my-friends {
-    height: 520px;
+    width: 100%;
     min-width: 1142px;
-    padding: 20px calc(50% - 571px) 0;
+    padding-bottom: 20px;
     background-color: #fff;
+}
+.my-friends .my-friends-wrap{
+    height: 520px;
+    max-width: 1142px;
+    margin: 0 auto;
 }
 .my-friends .friend-container{
     margin-top: 60px;
@@ -477,10 +489,14 @@
 *  footer
 **********/
 .footer{
-    height: 260px;
+    width: 100%;
     min-width: 1142px;
-    padding: 0 calc(50% - 571px);
     background-color: #26282c;
+}
+.footer .footer-wrap{
+    height: 260px;
+    max-width: 1142;
+    margin: 0 auto;
     position: relative;
 }
 .footer .contact{
