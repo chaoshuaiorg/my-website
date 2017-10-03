@@ -6,19 +6,36 @@
 .header{
     width: 100%;
     min-width: 1142px;
-    box-shadow: 2px 2px 5px #aaa ;
-    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(255,255,255,0);
+    transition: .5s;
 }
-.header-wrap{
+.header .header-brand{
+    color: #eee;
+}
+.header .header-nav a{
+    color: hsla(0,0%,100%,.65);
+}
+.srolled{
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,.5);
+    transition: 1s;
+}
+.srolled .header-brand,
+.srolled .header-nav a{
+    color: #494d55;
+}
+.header .header-wrap{
     max-width: 1142px;
     height: 60px;
     margin: 0 auto;
     position: relative;
 }
-.header-brand{
+.header .header-brand{
     height: 30px;
     font-size: 20px;
-    color: #494d55;
     line-height: 30px;
     text-indent: 70px;
     background: url("../img/logo.png") no-repeat center left;
@@ -27,25 +44,25 @@
     top: calc(50% - 15px);
     left: 0;
 }
-.header-nav{
+.header .header-nav{
     height: 30px;
     font-size: 16px;
     position: absolute;
     top: calc(50% - 15px);
     right: 0;
 }
-.header-nav a{
+.header .header-nav a{
     display: inline-block;
     height: 30px;
     line-height: 30px;
     padding: 0 14px;
 }
-.header-nav a.active,
-.header-nav a:hover
+.header .header-nav a.active,
+.header .header-nav a:hover
 {
     color: #f2b335;
 }
-.header-nav a.active::after{
+.header .header-nav a.active::after{
     content: " ";
     display: block;
     height: 4px;
@@ -175,6 +192,7 @@
     font-size: 14px;
     border-radius: 3px;
     color: #616161;
+    cursor: pointer;
     border: none;
     outline: none;
 }
