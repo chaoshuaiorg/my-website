@@ -1,0 +1,26 @@
+/***********
+* 网站风格样式
+************/
+
+::selection {
+    background-color: #f2b335;
+}
+
+a {
+    text-decoration: none;
+    color: #494d55;
+}
+
+a:hover {
+    color: #f2b335;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #f3f4f5;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
