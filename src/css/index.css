@@ -13,7 +13,7 @@
     transition: .5s;
 }
 .header .header-brand{
-    color: #eee;
+    color: #494d55;
 }
 .header .header-nav a{
     color: hsla(0,0%,100%,.65);
@@ -481,13 +481,13 @@
     border-radius: 50%;
 }
 .my-friends .friend .img-box .one{
-    background-image:url("../img/psb-(2).png");
+    background-image:url("../img/psb-(2).jpg");
 }
 .my-friends .friend .img-box .two{
-    background-image:url("../img/tusheng.png");
+    background-image:url("../img/tusheng.jpg");
 }
 .my-friends .friend .img-box .three{
-    background-image:url("../img/wuhao.png");
+    background-image:url("../img/wuhao.jpg");
 }
 
 .my-friends .friend-container .friend h2{

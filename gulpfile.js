@@ -27,7 +27,7 @@ gulp.task('css:dev', function () {
     .pipe(concat('all.css'))
     // .pipe(spriter({
     //     'spriteSheet': 'src/img/spritesheet.png',
-    //     'pathToSpriteSheetFromCSS': '../imag/spritesheet.png'
+    //     'pathToSpriteSheetFromCSS': '../img/spritesheet.png'
     // }))
     .pipe(cleanCss())
     .pipe(rename('all.min.css'))
