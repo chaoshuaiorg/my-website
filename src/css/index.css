@@ -229,6 +229,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     position: relative;
+    color: #fff;
 }
 .open-source .pro-container .project-item::before{
     content: '';
@@ -264,7 +265,37 @@
 .open-source .pro-container .four{
     background-color: #89d04f;
 }
+.open-source .pro-container .one .icon,
+.open-source .pro-container .two .icon,
+.open-source .pro-container .three .icon,
+.open-source .pro-container .four .icon{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    margin: 0 auto;
+}
 
+.open-source .pro-container .two div.icon{
+    font-size: 25px;
+    font-style: italic;
+}
+.open-source .pro-container .one h2,
+.open-source .pro-container .two h2,
+.open-source .pro-container .three h2,
+.open-source .pro-container .four h2
+{
+    font-weight: normal;
+    font-size: 21px;
+    margin: 0;
+}
+.open-source .pro-container .one p,
+.open-source .pro-container .two p,
+.open-source .pro-container .three p,
+.open-source .pro-container .four p
+{
+    font-size: 14px;
+}
 /***********
 *  Film
 ************/
