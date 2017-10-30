@@ -269,13 +269,14 @@
 .open-source .pro-container .two .icon,
 .open-source .pro-container .three .icon,
 .open-source .pro-container .four .icon{
-    font-size: 70px;
+    font-size: 55px;
     line-height: 100px;
     font-weight: bold;
     height: 100px;
     margin: 0 auto;
 }
 
+.open-source .pro-container .three div.icon,
 .open-source .pro-container .two div.icon{
     font-size: 25px;
     font-style: italic;
@@ -485,10 +486,10 @@
 }
 
 .my-friends .friend-container .friend + .friend{
-    margin-left: 31px;
+    margin-left: 4%;
 }
 .my-friends .friend-container .friend{
-    width: 360px;
+    width: 30%;
     height: 275px;
     font-size: 16px;
     line-height: 16px;
