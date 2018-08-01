@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/feather-light/my-website#readme",
   "dependencies": {
+    "koa": "^2.5.2",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
